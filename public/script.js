@@ -28,7 +28,7 @@ orderCheck.addEventListener("click", (e) => {
     if (name.value == "" || orderNumber.value == "") {
       throw new Error("주문자명과 주문번호를 정확하게 입력하세요!");
     } else {
-      alert(`${name.value}님의 주문내역으로 이동합니다.`);
+      alert(`${name.value}님 주문내역으로 이동합니다.`);
     }
   } catch (error) {
     alert(error.message);
